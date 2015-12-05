@@ -14,6 +14,8 @@
 		03A8391E1C12F56B00B8D24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A8391D1C12F56B00B8D24F /* Assets.xcassets */; };
 		03A839211C12F56B00B8D24F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A8391F1C12F56B00B8D24F /* LaunchScreen.storyboard */; };
 		03A8392C1C12F56B00B8D24F /* NavigationDropViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A8392B1C12F56B00B8D24F /* NavigationDropViewUITests.m */; };
+		03A839381C12F67F00B8D24F /* NavigationDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A839371C12F67F00B8D24F /* NavigationDropView.m */; };
+		03A8393A1C12F69800B8D24F /* NavigationDropView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A839391C12F69800B8D24F /* NavigationDropView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		03A839271C12F56B00B8D24F /* NavigationDropViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationDropViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A8392B1C12F56B00B8D24F /* NavigationDropViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationDropViewUITests.m; sourceTree = "<group>"; };
 		03A8392D1C12F56B00B8D24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A839361C12F67F00B8D24F /* NavigationDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationDropView.h; sourceTree = "<group>"; };
+		03A839371C12F67F00B8D24F /* NavigationDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationDropView.m; sourceTree = "<group>"; };
+		03A839391C12F69800B8D24F /* NavigationDropView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationDropView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,9 @@
 				03A8391F1C12F56B00B8D24F /* LaunchScreen.storyboard */,
 				03A839221C12F56B00B8D24F /* Info.plist */,
 				03A839111C12F56B00B8D24F /* Supporting Files */,
+				03A839361C12F67F00B8D24F /* NavigationDropView.h */,
+				03A839371C12F67F00B8D24F /* NavigationDropView.m */,
+				03A839391C12F69800B8D24F /* NavigationDropView.xib */,
 			);
 			path = NavigationDropView;
 			sourceTree = "<group>";
@@ -194,6 +202,7 @@
 				03A839211C12F56B00B8D24F /* LaunchScreen.storyboard in Resources */,
 				03A8391E1C12F56B00B8D24F /* Assets.xcassets in Resources */,
 				03A8391C1C12F56B00B8D24F /* Main.storyboard in Resources */,
+				03A8393A1C12F69800B8D24F /* NavigationDropView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +223,7 @@
 				03A839191C12F56B00B8D24F /* ViewController.m in Sources */,
 				03A839161C12F56B00B8D24F /* AppDelegate.m in Sources */,
 				03A839131C12F56B00B8D24F /* main.m in Sources */,
+				03A839381C12F67F00B8D24F /* NavigationDropView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
